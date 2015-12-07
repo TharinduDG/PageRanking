@@ -18,6 +18,7 @@ public class PageRank {
 	private static final int POWER_ITERATIONS = 2;
 	private static int NUMBER_OF_NODES = 875713;
 	
+	// current method is not fast enough
 	public static void main(String[] args) throws Exception {
 		Map<Integer,List<Integer>> connectionsMap = new HashMap<>();
 		Set<Integer> nodesTracker = new HashSet<>();
